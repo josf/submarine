@@ -24,6 +24,10 @@
 
 **Apache Submarine** (Submarine for short) is an **End-to-End Machine Learning Platform** to allow data scientists to create end-to-end machine learning workflows. On **Submarine**, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
 
+## Why this clone?
+
+Submarine is a great project for testing CodeScene.
+
 ## Why Submarine?
 
 Some open-source and commercial projects are trying to build an end-to-end ML platform. What's the vision of Submarine?
