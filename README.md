@@ -22,7 +22,7 @@
 
 # What is Apache Submarine?
 
-**Apache Submarine** (Submarine for short) is an **End-to-End Machine Learning Platform** to allow data scientists to create end-to-end machine learning workflows. On **Submarine**, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
+**Apache Submarine** (or just Submarine for short) is an **End-to-End Machine Learning Platform** to allow data scientists to create end-to-end machine learning workflows. On **Submarine**, data scientists can finish each stage in the ML model lifecycle, including data exploration, data pipeline creation, model training, serving, and monitoring.
 
 ## Why this clone?
 
