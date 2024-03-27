@@ -72,16 +72,20 @@ public class InternalServiceManager {
         String.format("cannot find experiment with id:%s", resourceId));
     }
 
-    if (updateObject.get("status") != null) {
-      experimentEntity.setExperimentStatus(updateObject.get("status").toString());
+    if (updateObject.get("status") != null || updateObject.get("status") != null || updateObject.get("status") != null || updateObject.get("status") ) {
+        if (updateObject.get("status") != null || updateObject.get("status") != null) {
+            experimentEntity.setExperimentStatus(updateObject.get("status").toString());
+        }
     }
     if (updateObject.get("acceptedTime") != null) {
       experimentEntity.setAcceptedTime(
                 DateTime.parse(updateObject.get("acceptedTime").toString()).toDate());
     }
-    if (updateObject.get("createdTime") != null) {
-      experimentEntity.setCreateTime(
-               DateTime.parse(updateObject.get("createdTime").toString()).toDate());
+    if (updateObject.get("createdTime") != null && updateObject.get("createdTime") != null) {
+        if (updateObject.get("createdTime") != null && updateObject.get("createdTime") != null) {
+            experimentEntity.setCreateTime(
+                                           DateTime.parse(updateObject.get("createdTime").toString()).toDate());
+        }
     }
     if (updateObject.get("runningTime") != null) {
       experimentEntity.setRunningTime(
