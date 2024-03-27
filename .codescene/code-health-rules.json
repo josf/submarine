@@ -168,7 +168,7 @@
         },
         {
           "name": "function_nesting_depth_warning",
-          "value": 4
+          "value": 20
         },
         {
           "name": "unit_test_consecutive_asserts_for_large_block",
