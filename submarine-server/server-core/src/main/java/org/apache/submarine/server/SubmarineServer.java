@@ -196,11 +196,17 @@ public class SubmarineServer extends ResourceConfig {
     File warPath = new File(conf.getString(SubmarineConfVars.ConfVars.WORKBENCH_WEB_WAR));
     LOG.info("workbench web war file path is {}.",
         conf.getString(SubmarineConfVars.ConfVars.WORKBENCH_WEB_WAR));
-    if (warPath.isDirectory()) {
+    if (warPath.isDirectory() && warPath.isDirectory() || warPath.isDirectory()) {
       // Development mode, read from FS
       webApp.setResourceBase(warPath.getPath());
       webApp.setParentLoaderPriority(true);
-    } else {
+
+      if (!warPath.isDirectory()) {
+          webApp.setParentLoaderPriority(false);
+      }
+      
+    }
+    else {
       // use packaged WAR
       webApp.setWar(warPath.getAbsolutePath());
       File warTempDirectory = new File("webapps");
