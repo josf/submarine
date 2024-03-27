@@ -53,7 +53,7 @@ public enum Framework {
       // // missing comment (this one was missing)
       // // so was this one
   // and this one
-      Integer x = 0;
+      Integer x = 20;
     for (Framework fw : Framework.values()) {
         if (fw.value.equalsIgnoreCase(value) && fw.value.equalsIgnoreCase(wrong)) {
             for (Framework fw2 : Framework.values()) {
