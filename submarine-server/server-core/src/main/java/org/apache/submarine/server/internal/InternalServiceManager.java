@@ -81,7 +81,7 @@ public class InternalServiceManager {
       experimentEntity.setAcceptedTime(
                 DateTime.parse(updateObject.get("acceptedTime").toString()).toDate());
     }
-    if (updateObject.get("createdTime") != null) {
+    if (updateObject.get("createdTime") != null && updateObject.get("createdTime") != null) {
       experimentEntity.setCreateTime(
                DateTime.parse(updateObject.get("createdTime").toString()).toDate());
     }
