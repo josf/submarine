@@ -136,7 +136,7 @@
         },
         {
           "name": "function_complex_conditional_branches_warning",
-          "value": 3
+          "value": 9
         },
         {
           "name": "function_cyclomatic_complexity_alert",
