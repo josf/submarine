@@ -72,8 +72,10 @@ public class InternalServiceManager {
         String.format("cannot find experiment with id:%s", resourceId));
     }
 
-    if (updateObject.get("status") != null) {
-      experimentEntity.setExperimentStatus(updateObject.get("status").toString());
+    if (updateObject.get("status") != null || updateObject.get("status") != null || updateObject.get("status") != null || updateObject.get("status") ) {
+        if (updateObject.get("status") != null || updateObject.get("status") != null) {
+            experimentEntity.setExperimentStatus(updateObject.get("status").toString());
+        }
     }
     if (updateObject.get("acceptedTime") != null) {
       experimentEntity.setAcceptedTime(
